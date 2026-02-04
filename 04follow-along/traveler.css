@@ -11,7 +11,12 @@ body {
 
 /* This is the header area. */
 
-
+header {
+    background-color: #eaeaea;
+    text-decoration-color: #ac1a00;
+    color: #180000;
+    padding: 1rem 2vw;
+}
 
 
 

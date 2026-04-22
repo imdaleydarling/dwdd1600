@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="William Daley">
+    <meta name="description" content="A complete gallery of resized Wii Menu assets.">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Asset Gallery - William's Wii Menu</title>
+    <style>
+
+
+
+
+
+        /* Specific Gallery Layout Styles */
+        .gallery-section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 20px;
+            border: 1px solid #eee;
+        }
+
+        .gallery-section h2 {
+            text-align: center;
+            color: #7d7d7d;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #34BEED;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .gallery-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .gallery-card {
+            background: #ffffff;
+            border: 2px solid #e7e7e7;
+            border-radius: 12px;
+            padding: 10px;
+            flex: 0 1 250px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .gallery-card:hover {
+            transform: scale(1.03);
+            border-color: #34BEED;
+        }
+
+        .gallery-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .gallery-card p {
+            margin-top: 10px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #7d7d7d;
+        }
+    </style>
+</head>
+<body>
+   
+     <header>
+       <img src="images/wiihand.png" alt="wiihandicon" class="icon">
+
+       <div class="header-text">
+            <h1>William's Wii Menu</h1>
+            <p>Asset Archive</p>
+        </div>
+    </header>
+
+
+        <nav>
+        <ul>
+                   <li><a href="index.html">Home / Disc Channel</a></li>
+            <li><a href="mii_channel.html">Mii Channel</a></li>
+            <li class="active"><a href="photo_channel.html">Photo Channel</a></li>
+            <li><a href="shop_channel.html">Wii Shop Channel</a></li>
+            <li><a href="news_channel.html">News Channel</a></li>
+            <li><a href="forecast_channel.html">Forecast Channel</a></li>
+             <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+   
+    
+    <main>
+        <h1>Project Image Gallery</h1>
+        <p>This gallery contains my images used in the Wii Menu project.</p>
+
+        <section class="gallery-section">
+            <h2>System & Shop</h2>
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <img src="images/wiishop.jpg" alt="Wii Shop Channel">
+                    <p>Wii Shop Storefront</p>
+                </div>
+                <div class="gallery-card">
+                    <img src="images/miis.jpg" alt="Wii System Menu">
+                    <p>System Menu Preview</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <h2>Mii Channel Assets</h2>
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <img src="images/miichannel.jpg" alt="Mii Channel Start Screen">
+                    <p>Mii Channel Hub</p>
+                </div>
+                <div class="gallery-card">
+                    <img src="images/miimaker.jpg" alt="Mii Maker Interface">
+                    <p>The Mii Maker</p>
+                </div>
+                <div class="gallery-card">
+                    <img src="images/miiplaza.jpg" alt="Mii Plaza">
+                    <p>The Social Plaza</p>
+                </div>
+                <div class="gallery-card">
+                    <img src="images/miicelebrating.jpg" alt="Miis Celebrating">
+                    <p>Community Celebration</p>
+                </div>
+                <div class="gallery-card">
+                    <img src="images/miirunning.jpg" alt="Miis Running">
+                    <p>Miis Through the Generations</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <h2>Forecast Channel Assets</h2>
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <img src="images/forecastchannel.jpg" alt="Forecast Channel Icon">
+                    <p>Channel Interface Icon</p>
+                </div>
+                <div class="gallery-card">
+                    <img src="images/forecastglobe.jpg" alt="Interactive Globe">
+                    <p>The Interactive Globe</p>
+                </div>
+                <div class="gallery-card">
+                    <img src="images/forecaststats.jpg" alt="Weather Stats Interface">
+                    <p>Local Weather Statistics</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 | William Daley &bull; All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
